@@ -1,0 +1,68 @@
+Index: VisualDeckOfCards.iml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+><?xml version=\"1.0\" encoding=\"UTF-8\"?>\r\n<module type=\"JAVA_MODULE\" version=\"4\">\r\n  <component name=\"NewModuleRootManager\" inherit-compiler-output=\"true\">\r\n    <exclude-output />\r\n    <content url=\"file://$MODULE_DIR$\">\r\n      <sourceFolder url=\"file://$MODULE_DIR$/src\" isTestSource=\"false\" />\r\n    </content>\r\n    <orderEntry type=\"inheritedJdk\" />\r\n    <orderEntry type=\"sourceFolder\" forTests=\"false\" />\r\n  </component>\r\n</module>
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/VisualDeckOfCards.iml b/VisualDeckOfCards.iml
+--- a/VisualDeckOfCards.iml	(revision 72e21f4dd56df34041134785e607ef3edf4a2c09)
++++ b/VisualDeckOfCards.iml	(date 1619848295221)
+@@ -7,5 +7,6 @@
+     </content>
+     <orderEntry type="inheritedJdk" />
+     <orderEntry type="sourceFolder" forTests="false" />
++    <orderEntry type="library" name="lib" level="project" />
+   </component>
+ </module>
+\ No newline at end of file
+Index: .idea/libraries/lib.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.idea/libraries/lib.xml b/.idea/libraries/lib.xml
+new file mode 100644
+--- /dev/null	(date 1619848295248)
++++ b/.idea/libraries/lib.xml	(date 1619848295248)
+@@ -0,0 +1,20 @@
++<component name="libraryTable">
++  <library name="lib">
++    <CLASSES>
++      <root url="file://$USER_HOME$/Downloads/openjfx-16_windows-x64_bin-sdk/javafx-sdk-16/lib" />
++    </CLASSES>
++    <JAVADOC />
++    <SOURCES>
++      <root url="file://$USER_HOME$/Downloads/openjfx-16_windows-x64_bin-sdk/javafx-sdk-16/lib/src/javafx.base" />
++      <root url="file://$USER_HOME$/Downloads/openjfx-16_windows-x64_bin-sdk/javafx-sdk-16/lib/src/javafx.controls" />
++      <root url="file://$USER_HOME$/Downloads/openjfx-16_windows-x64_bin-sdk/javafx-sdk-16/lib/src/javafx.fxml" />
++      <root url="file://$USER_HOME$/Downloads/openjfx-16_windows-x64_bin-sdk/javafx-sdk-16/lib/src/javafx.graphics" />
++      <root url="file://$USER_HOME$/Downloads/openjfx-16_windows-x64_bin-sdk/javafx-sdk-16/lib/src/javafx.media" />
++      <root url="file://$USER_HOME$/Downloads/openjfx-16_windows-x64_bin-sdk/javafx-sdk-16/lib/src/javafx.swing" />
++      <root url="file://$USER_HOME$/Downloads/openjfx-16_windows-x64_bin-sdk/javafx-sdk-16/lib/src/javafx.web" />
++      <root url="file://$USER_HOME$/Downloads/openjfx-16_windows-x64_bin-sdk/javafx-sdk-16/lib" />
++    </SOURCES>
++    <jarDirectory url="file://$USER_HOME$/Downloads/openjfx-16_windows-x64_bin-sdk/javafx-sdk-16/lib" recursive="false" />
++    <jarDirectory url="file://$USER_HOME$/Downloads/openjfx-16_windows-x64_bin-sdk/javafx-sdk-16/lib" recursive="false" type="SOURCES" />
++  </library>
++</component>
+\ No newline at end of file
+Index: .idea/misc.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+><?xml version=\"1.0\" encoding=\"UTF-8\"?>\r\n<project version=\"4\">\r\n  <component name=\"ProjectRootManager\" version=\"2\" languageLevel=\"JDK_1_8\" default=\"true\" project-jdk-name=\"1.8\" project-jdk-type=\"JavaSDK\">\r\n    <output url=\"file://$PROJECT_DIR$/out\" />\r\n  </component>\r\n</project>
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.idea/misc.xml b/.idea/misc.xml
+--- a/.idea/misc.xml	(revision 72e21f4dd56df34041134785e607ef3edf4a2c09)
++++ b/.idea/misc.xml	(date 1619848295272)
+@@ -1,6 +1,6 @@
+ <?xml version="1.0" encoding="UTF-8"?>
+ <project version="4">
+-  <component name="ProjectRootManager" version="2" languageLevel="JDK_1_8" default="true" project-jdk-name="1.8" project-jdk-type="JavaSDK">
++  <component name="ProjectRootManager" version="2" languageLevel="JDK_15" default="true" project-jdk-name="15" project-jdk-type="JavaSDK">
+     <output url="file://$PROJECT_DIR$/out" />
+   </component>
+ </project>
+\ No newline at end of file
